@@ -1,5 +1,4 @@
 # Global Electronics Sales Analysis | Power BI
-Power BI dashboard analyzing global electronics sales, profitability, product performance and store locations.
 
 An interactive Power BI dashboard analyzing the sales performance of a global electronics retailer across products, customers, store locations and time.
 
@@ -134,7 +133,7 @@ A drill-through page providing detailed performance for the selected store locat
 ### Store Detail
 ![Store Detail](images/store-detail.png)
 
-### Toolip
+### Custom Tooltip
 ![Tooltip](images/store-tooltip.png)
 
 
