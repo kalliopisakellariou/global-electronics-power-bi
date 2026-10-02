@@ -33,18 +33,19 @@ The main tables used in the Power BI model are:
 - `DateTable` – a custom calendar table created in DAX for time-based analysis and year-over-year calculations
 
 
-## Dataset
+## Data Preparation
 
-The project uses the Maven Analytics Global Electronics Retailer dataset, which contains transactional and reference data for sales, customers, products, stores and exchange rates.
+Data cleaning and transformation were performed in Power Query before loading the data into the model.
 
-The main tables used in the Power BI model are:
+Key preparation steps included:
 
-- `Sales` – transactional sales data, including order dates, quantities, customers, stores and products
-- `Customers` – customer demographic and geographic information
-- `Products` – product details, categories, prices and costs
-- `Stores` – store locations and store characteristics
-- `Exchange_Rates` – historical currency exchange rates
-- `DateTable` – a custom calendar table created in DAX for time-based analysis and year-over-year calculations
+- Correcting data types across all tables
+- Parsing date fields using the appropriate locale
+- Converting currency fields to numeric values
+- Handling missing delivery dates
+- Creating a `Delivery Days` column
+- Creating a composite `ExchangeKey` for the exchange-rate relationship
+- Validating column quality and checking for errors
 
 
 ## Data Model
@@ -81,7 +82,8 @@ Example:
 ```DAX
 Total Profit USD =
 [Total Sales USD] - [Total Cost USD]
-
+```
+```DAX
 YoY Sales Growth % =
 DIVIDE(
     [Total Sales USD] - [Sales Previous Year],
