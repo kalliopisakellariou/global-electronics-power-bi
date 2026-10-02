@@ -126,13 +126,13 @@ A drill-through page providing detailed performance for the selected store locat
 ![Overview](images/overview.png)
 
 ### Performance Analysis
-![Performance Analysis](images/performance analysis.png)
+![Performance Analysis](images/performance-analysis.png)
 
 ### Geographic Analysis
-![Geographic Analysis](images/geographic analysis.png)
+![Geographic Analysis](images/geographic-analysis.png)
 
 ### Store Detail
-![Store Detail](images/store detail.png)
+![Store Detail](images/store-detail.png)
 
 ### Toolip
-![Tooltip](images/tooltip.png)
+![Tooltip](images/store-tooltip.png)
