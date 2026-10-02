@@ -136,3 +136,24 @@ A drill-through page providing detailed performance for the selected store locat
 
 ### Toolip
 ![Tooltip](images/store-tooltip.png)
+
+
+## Key Insights
+
+- Total sales reached approximately **$55.8M**, generating around **$32.7M in profit** with an overall **profit margin of 58.6%**.
+- The **United States** is the strongest store location by sales, while the **online channel** also represents a significant share of total sales.
+- **Computers** are the highest-performing product category, followed by **Home Appliances**.
+- Sales performance varies noticeably over time, with several periods of decline followed by strong recovery.
+- Average delivery time remains relatively consistent across customer countries, generally at around **4–5 days**.
+- Year-over-year sales growth varies significantly by year, with some periods showing strong growth compared with the previous year.
+
+
+## Tools & Skills
+
+- **Power BI** – interactive dashboard development and report design
+- **Power Query** – data cleaning, transformation and preparation
+- **DAX** – calculated measures and time intelligence
+- **Data Modeling** – table relationships, date table and hierarchical structures
+- **Data Visualization** – KPI cards, trend analysis, geographic analysis and category comparisons
+- **Interactive Reporting** – slicers, drill-down, drill-through and custom tooltips
+- **GitHub** – project documentation and portfolio presentation
