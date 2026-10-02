@@ -118,3 +118,18 @@ Shows geographic sales distribution, store-location performance and hierarchical
 
 ### Store Detail
 A drill-through page providing detailed performance for the selected store location, including sales, profit, average order value and product category breakdown.
+
+
+## Dashboard Screenshots
+
+### Overview
+![Overview](images/overview.png)
+
+### Performance Analysis
+![Performance Analysis](images/performance-analysis.png)
+
+### Geographic Analysis
+![Geographic Analysis](images/geographic-analysis.png)
+
+### Store Detail
+![Store Detail](images/store-detail.png)
